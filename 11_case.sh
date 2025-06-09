@@ -15,4 +15,5 @@ case $choice in
 		echo "The list of all files is:"
 		ls
 		;;
+	*)	echo "Your input is wrong. Please try again.";;
 esac
