@@ -6,6 +6,6 @@ a=10
 until [[ $a -eq 1 ]]
 do
 	echo "$a"
-	# let a--;
-	(( a-- ))
+	# let a--
+	((a=a-1))
 done

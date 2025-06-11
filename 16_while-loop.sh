@@ -1,11 +1,10 @@
 #!/bin/bash
 
-#!/bin/bash
+count=0
+limit=10
 
-read -p "Enter your username: " username
-read -s -p "Enter your password: " password
-echo  # Move to a new line after silent input
-
-echo "Username is: $username"
-echo "Password is securely captured."
-
+while [[ $count -le limit ]]
+do
+	echo "The current number is $count"
+	let count++
+done
