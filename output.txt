@@ -1,0 +1,4 @@
+/home/anuprash/myscripts
+Anuptas
+-bash
+The name of this script is: 33_scriptname.sh.
